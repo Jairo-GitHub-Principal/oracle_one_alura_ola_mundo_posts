@@ -1,0 +1,31 @@
+:root {
+  
+    --cor-fonte-principal: #333333; /* Cinza escuro */
+    
+  }
+
+.navegacao {
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+ 
+@media (max-width: 744px) {
+    .navegacao {
+        height: 72px;
+    }
+}
+
+/*os estilos abbaico esta sendo usado para testar o NavLink de router-dom*/
+.link {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: var(--cor-fonte-principal);
+}
+
+.linkDestacado {
+    text-decoration: underline;
+}
